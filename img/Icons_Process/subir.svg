@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="148" viewBox="0 0 152 148">
+  <g id="Grupo_58" data-name="Grupo 58" transform="translate(-884 -3749.724)">
+    <path id="Trazado_2" data-name="Trazado 2" d="M63.568,312.642v18.72a2.7,2.7,0,0,1-2.694,2.694H8.081a2.7,2.7,0,0,1-2.694-2.694v-18.72H0v18.72a8.09,8.09,0,0,0,8.081,8.081H60.875a8.09,8.09,0,0,0,8.081-8.081v-18.72Z" transform="translate(925.727 3518.953)" fill="#74a9d0"/>
+    <g id="Grupo_14" data-name="Grupo 14" transform="translate(943.466 3789.537)">
+      <g id="Grupo_13" data-name="Grupo 13">
+        <path id="Trazado_3" data-name="Trazado 3" d="M148.454.358,131.716,17.1l3.809,3.809L145.761,10.67V52.651h5.387V10.67l10.236,10.236,3.809-3.809Z" transform="translate(-131.716 -0.358)" fill="#74a9d0"/>
+      </g>
+    </g>
+    <g id="Elipse_34" data-name="Elipse 34" transform="translate(884 3749.724)" fill="none" stroke="#74a9d0" stroke-width="10">
+      <ellipse cx="76" cy="74" rx="76" ry="74" stroke="none"/>
+      <ellipse cx="76" cy="74" rx="71" ry="69" fill="none"/>
+    </g>
+  </g>
+</svg>

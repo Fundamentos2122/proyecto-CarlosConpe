@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="208.271" viewBox="0 0 276 208.271">
+  <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(1)">
+    <g id="Grupo_38" data-name="Grupo 38" transform="translate(-8.407 0)">
+      <g id="Elipse_9" data-name="Elipse 9" transform="translate(61.948 0)" fill="none" stroke="#74a9d0" stroke-width="10">
+        <ellipse cx="83.235" cy="81.045" rx="83.235" ry="81.045" stroke="none"/>
+        <ellipse cx="83.235" cy="81.045" rx="78.235" ry="76.045" fill="none"/>
+      </g>
+      <text id="Bajar_material_de_diseño" data-name="Bajar material de diseño" transform="translate(145.407 203.271)" fill="#74a9d0" font-size="18" font-family="Montserrat" font-weight="600"><tspan x="-137" y="0">BAJAR MATERIAL DE DISEÑO</tspan></text>
+      <g id="Elipse_10" data-name="Elipse 10" transform="translate(61.948 0)" fill="none" stroke="#74a9d0" stroke-width="10">
+        <ellipse cx="83.235" cy="81.045" rx="83.235" ry="81.045" stroke="none"/>
+        <ellipse cx="83.235" cy="81.045" rx="78.235" ry="76.045" fill="none"/>
+      </g>
+    </g>
+    <g id="download" transform="translate(86.547 41.636)">
+      <g id="Grupo_54" data-name="Grupo 54" transform="translate(32.078)">
+        <g id="Grupo_53" data-name="Grupo 53">
+          <path id="Trazado_56" data-name="Trazado 56" d="M164.542,33.5a2.291,2.291,0,0,0-2.09-1.346h-9.187V2.3a2.3,2.3,0,0,0-2.3-2.3H141.78a2.3,2.3,0,0,0-2.3,2.3V32.156H130.3a2.3,2.3,0,0,0-1.727,3.808l16.078,18.375a2.292,2.292,0,0,0,3.454,0l16.078-18.375A2.29,2.29,0,0,0,164.542,33.5Z" transform="translate(-127.998)" fill="#74a9d0"/>
+        </g>
+      </g>
+      <g id="Grupo_56" data-name="Grupo 56" transform="translate(16 50.531)">
+        <g id="Grupo_55" data-name="Grupo 55" transform="translate(0)">
+          <path id="Trazado_57" data-name="Trazado 57" d="M75.719,352v13.781H25.188V352H16v18.375a4.592,4.592,0,0,0,4.594,4.594H80.312a4.59,4.59,0,0,0,4.594-4.594V352Z" transform="translate(-16 -352)" fill="#74a9d0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

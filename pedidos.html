@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Navbar">
+        <div class="Navbar_Link Navbar_Link_Toggle">
+            <img src="img/Icons/menu.svg" alt="menu" width="30px">
+        </div>
+
+        <div class="Navbar_Link Navbar_Link_Brand">
+            <img src="img/logo-header.png" alt="logo">
+        </div>
+
+        <nav class="Navbar_Items">
+            <div class="Navbar_Link Navbar_Link_Item">
+                <a href="crm.html">CRM</a>
+            </div>
+            <div class="Navbar_Link Navbar_Link_Item">
+                <a href="pedidos.html">PEDIDOS</a>
+            </div>
+        </nav>
+        <nav class="Navbar_Items_Right">
+            <div class="Navbar_Link">
+                <a href="crear_pedido.html">
+                    <button>CREAR NUEVO PEDIDO</button>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container_seguimiento">
+        <div>
+            <h1>PEDIDOS</h1>
+        </div>
+        <div class="buttons_acciones_seguimiento">
+            <form action="crear_pedido.html">
+                <button type="submit" id="button_crear_prospecto" class="button_crear_prospecto">CREAR
+                    PEDIDO</button>
+            </form>
+
+        </div>
+        <div id="pedidos">
+            <h2>Pedidos en Revisión</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision" selected>Revisión</option>
+                            <option value="enproceso">Proceso</option>
+                            <option value="terminado">Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso">Proceso</option>
+                            <option value="terminado">Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <h2>Pedidos en Producción</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso" selected>Proceso</option>
+                            <option value="terminado">Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso" selected>Proceso</option>
+                            <option value="terminado">Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <h2>Pedidos Terminados</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso">Proceso</option>
+                            <option value="terminado" selected>Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso">Proceso</option>
+                            <option value="terminado" selected>Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card_id">1</div>
+                    <div class="card_name">Carlos</div>
+                    <div class="card_tel">4442077125</div>
+                    <div class="card_mail">carlos.conpe@hotmail.com</div>
+                    <div class="card_fase">
+                        <select title="dropdown_state" name="estado" class="estadolist">
+                            <option value="enrevision">Revisión</option>
+                            <option value="enproceso">Proceso</option>
+                            <option value="terminado" selected>Hecho</option>
+                        </select>
+                    </div>
+                    <div class="card_opciones">
+                        <img src="img/cot.png" alt="cotización">
+                        <img src="img/dis.png" alt="diseño">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Modal_Pedido" class="modal">
+        <div class="modal-content" id="modalPedido">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <form class="form_login_spaces">
+                <h3>Pedido: Revisión</h3>
+                <h4>ID: ${i}</h4>
+                <div class="card">
+                    <div class="card_info_basica">
+                        <img src="img/Icons/check-mark.png" alt="icon">
+                        <h5>Información Básica</h5>
+                        <img src="img/Icons/dropdown1.png" class="card_drop" alt="icon">
+                    </div>
+                    <div class="card_info_basica_expanded"></div>
+                    <div class="card_aspectos">
+                        <img src="img/Icons/check-mark.png" alt="icon">
+                        <h5>Aspectos Generales</h5>
+                        <img src="img/Icons/dropdown1.png" class="card_drop" alt="icon">
+                    </div>
+                    <div class="card_aspectos_expanded"></div>
+                    <div class="colores">
+                        <img src="img/Icons/check-mark.png" alt="icon">
+                        <h5>Colores</h5>
+                        <img src="img/Icons/dropdown1.png" class="card_drop" alt="icon">
+                    </div>
+                    <div class="colores_expanded"></div>
+                    <div class="equipos">
+                        <img src="img/Icons/work-process.png" alt="icon">
+                        <h5>Equipo</h5>
+                        <img src="img/Icons/dropdown1.png" class="card_drop" alt="icon">
+                    </div>
+                    <div class="equipos_expanded"></div>
+                    <div class="referencias">
+                        <img src="img/Icons/delete-button.png" alt="icon">
+                        <h5>Referencias</h5>
+                        <img src="img/Icons/dropdown1.png" class="card_drop" alt="icon">
+                    </div>
+                    <div class="referencias_expanded"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="Modal_Pedido_Proceso" class="modal">
+        <div class="modal-content" id="modalPedidoProceso">
+            <span class="close" onclick="closeModal1()">&times;</span>
+            <form class="form_login_spaces">
+                <h3>Pedido: Proceso</h3>
+                <h4>ID:</h4>
+                <div class="card">
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/1.svg" alt="icon">
+                        <h5>Pago Diseño</h5>
+                    </div>
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/2.png" alt="icon">
+                        <h5>Diseño Terminado</h5>
+                    </div>
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/3.png" alt="icon">
+                        <h5>Cotización</h5>
+                    </div>
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/4.svg" alt="icon">
+                        <h5>Pago Cotización</h5>
+                    </div>
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/5.svg" alt="icon">
+                        <h5>Fabricación</h5>
+                    </div>
+                    <div class="sub-card-process">
+                        <img src="img/Icons_Process/6.svg" alt="icon">
+                        <h5>Instalación</h5>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="Modal_Pedido_Proceso_Etapa" class="modal">
+        <div class="modal-content" id="modalPedidoProcesoEtapa">
+            <span class="close" onclick="closeModal2()">&times;</span>
+            <form class="form_login_spaces">
+                <h3>Pedido: Proceso</h3>
+                <h4>ID: ${i}</h4>
+                <div class="card">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/dropdown_crm.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/pedidos.js"></script>
+
+
+
+</body>
+
+</html>

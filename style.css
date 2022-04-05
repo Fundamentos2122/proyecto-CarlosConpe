@@ -1,0 +1,1008 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+h1, h2, h3, h4, h5 {
+    color: #186AA5;
+}
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 95vh;
+    margin: 0;
+}
+
+.volver_login {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: 1em;
+}
+
+.volver_login img {
+    display: inline-block;
+}
+
+.volver_login p {
+    display: inline-block;
+    color: #186AA5;
+    padding-left: 5px;
+}
+
+.logo_login {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.form_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.form_login form {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+}
+
+
+.form_login_spaces h3 {
+    text-align: center;
+    color: #186AA5;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.form_login_spaces input {
+    display: block;
+    padding: 10px;
+    min-width: 90%;
+    margin: 28px auto;
+    border: 1px solid #73A1C2;
+}
+
+.form_login_spaces input::placeholder {
+    color: #186AA5;
+}
+
+.form_login_spaces button {
+    display: block;
+    margin: 28px auto;
+    min-width: 90%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+}
+
+.form_login_spaces a {
+    text-align: center;
+    display: block;
+    margin: 30px auto 10px auto;
+    font-size: 12px;
+    text-decoration: none;
+    color: #186AA5;
+}
+
+.login_change_profile {
+    position: absolute;
+    bottom: 0;
+    right: 30px
+}
+
+.login_change_profile a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #186AA5;
+}
+
+/**  NAVBAR  **/
+
+.Navbar {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.4em;
+    font-family: sans-serif;
+    color: black;
+    border-bottom: #186AA5 1px solid;
+}
+
+.Navbar_Link {
+    padding-left: 2em;
+}
+
+.Navbar_Link a {
+    text-decoration: none;
+    color: #186AA5;
+    font-weight: bold;
+
+}
+
+.Navbar_Link button {
+    padding: 13px;
+    background: white;
+    color: #186AA5;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid #73A1C2;
+    cursor: pointer;
+}
+
+.Navbar_Items {
+    display: flex;
+    margin: auto;
+}
+
+.Navbar_Items_Right {
+    display: flex;
+    margin: auto 0;
+    padding-right: 1em;
+}
+
+.Navbar_Link_Toggle {
+    display: none;
+}
+
+.Navbar_Link_Brand img {
+    width: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .Navbar_Items,
+    .Navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .Navbar {
+        padding: 1em;
+    }
+
+
+    .Navbar_Link {
+        padding-left: 1em;
+        margin: .5em;
+    }
+
+    .Navbar_Link_Brand {
+        padding-left: 4.5em;
+        margin: .5em;
+    }
+
+    .Navbar_Link_Brand img {
+        width: 50px;
+    }
+
+    .Navbar_Link_Item {
+        border-top: 1.5px solid #186AA5;
+        padding: 1em 0 .5em 0;
+    }
+
+    .Navbar_Items {
+        display: none;
+        margin: 0;
+        padding: 2em 0 0 0;
+    }
+
+    .Navbar_Items_Right {
+        position: absolute;
+        right: 1em;
+        top: 1.4em;
+    }
+
+    .Navbar_Toggle_Show {
+        display: flex;
+    }
+
+    .Navbar_Link_Toggle {
+        align-self: flex-start;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        padding-top: 1em;
+    }
+}
+
+/* Seguimiento y CRM */
+
+.container_seguimiento {
+    padding: 2em;
+}
+
+.container_seguimiento h1 {
+    margin-top: 3.5em;
+}
+
+.button_crear_prospecto {
+    padding: 1em 2em;
+    background: #186AA5;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #186AA5;
+    margin-right: 1em;
+    min-width: 18em;
+    cursor: pointer;
+}
+
+.button_crear_cliente {
+    padding: 1em 2em;
+    background: white;
+    color: #186AA5;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    min-width: 18em;
+    cursor: pointer;
+}
+
+.buttons_acciones_seguimiento {
+    padding: 2em 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 3em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid #73A1C2;
+    border-radius: .5em;
+    padding-left: 1em;
+}
+
+.cards>*+* {
+    margin-top: 1em;
+}
+
+
+.card_icon {
+    flex-basis: 5%;
+    cursor: pointer;
+
+}
+
+.card_name {
+    flex-basis: 20%;
+    font-weight: bold;
+    color: #186AA5;
+    cursor: pointer;
+
+}
+
+.card_tel {
+    flex-basis: 15%;
+    cursor: pointer;
+
+}
+
+.card_mail {
+    flex-basis: 25%;
+    cursor: pointer;
+
+}
+
+.card_group {
+    flex-basis: 15%;
+    cursor: pointer;
+
+}
+
+.card_pedido {
+    flex-basis: 20%;
+    cursor: pointer;
+
+}
+
+.card_pedido button {
+    width: 100%;
+    height: 100%;
+    min-height: 3.5em;
+    background-color: #186AA5;
+    color: white;
+    border: #186AA5 1px solid;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    cursor: pointer;
+}
+
+.card_drop {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container_seguimiento {
+        padding: 1em;
+    }
+
+    .container_seguimiento h1 {
+        margin-top: 1em;
+    }
+
+    .button_crear_prospecto {
+        width: 100%;
+        margin: 1em 0 .5em 0;
+    }
+
+    .button_crear_cliente {
+        width: 100%;
+        margin: .5em 0 .5em 0;
+    }
+
+    .buttons_acciones_seguimiento {
+        padding: 2em 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0 3em 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #73A1C2;
+        border-radius: .5em;
+        padding: 1em
+    }
+
+    .cards>*+* {
+        margin-top: 1em;
+    }
+
+
+    .card_icon {
+        flex-basis: 10%;
+    }
+
+    .card_name {
+        flex-basis: 60%;
+        font-weight: bold;
+        color: #186AA5;
+        margin-bottom: .25em;
+    }
+
+
+    .card_drop {
+        display: inline;
+        flex-basis: 8%;
+        align-self: flex-start;
+    }
+
+    .card_tel {
+        flex-basis: 100%;
+        margin-top: 1em;
+        display: none;
+
+    }
+
+    .card_mail {
+        flex-basis: 100%;
+        margin-top: 1em;
+        display: none;
+
+    }
+
+    .card_group {
+        flex-basis: 100%;
+        margin-top: 1em;
+        display: none;
+
+    }
+
+    .card_pedido {
+        flex-basis: 100%;
+        margin-top: 1em;
+        display: none;
+    }
+
+    .Client_Show {
+        display: flex;
+    }
+}
+
+/* MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2em;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: .5em;
+}
+
+#Modal_Crear_Pedido .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1.2em 5em 1.2em 1.2em;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: .5em;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content .form_login_spaces h3 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 2.4em;
+}
+
+.modal-content .form_login_spaces input {
+    font-size: 16px;
+    padding: 0.8em;
+    border-radius: .25em;
+}
+
+.modal-content .form_login_spaces button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.modal-content .form_login_spaces h4 {
+    text-align: left;
+    color: #186AA5;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding-left: 3em;
+}
+
+#cliente-info p {
+    text-align: left;
+    color: #186AA5;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-left: 4.3em;
+}
+
+.flex_cliente_info {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+#cliente-info {
+    flex-basis: 80%;
+}
+
+.buttons_crear_pedido {
+    align-self: flex-end;
+    display: initial;
+    padding-bottom: 1em;
+}
+
+.modal-content .form_login_spaces .flex_cliente_info button {
+    min-width: 13em;
+    margin: 0;
+}
+
+.modal-content .form_login_spaces .flex_cliente_info button[option="1"] {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1em;
+    margin-top: 10px;
+    background-color: rgb(165, 51, 51);
+}
+
+@media only screen and (max-width: 1200px) {
+    .modal {
+        padding-top: 200px;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 0;
+        padding: 15px;
+        border: 1px solid #888;
+        width: 100%;
+        border-top-right-radius: 1.5em;
+        border-top-left-radius: 1.5em;
+        ;
+    }
+
+    #Modal_Crear_Pedido .modal-content {
+        background-color: #fefefe;
+        margin: 0;
+        padding: 15px;
+        border: 1px solid #888;
+        width: 100%;
+        border-top-right-radius: 1.5em;
+        border-top-left-radius: 1.5em;
+        ;
+    }
+
+    .modal-content .form_login_spaces h4 {
+        text-align: left;
+        color: #186AA5;
+        font-size: 24px;
+        margin-bottom: 50px;
+        padding-left: 1.2em;
+    }
+
+    .close {
+        color: #aaaaaa;
+        float: right;
+        margin: 0.7em 0.5em 0 0;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .modal-content .form_login_spaces h3 {
+        padding-left: 0.7em;
+    }
+
+    .modal-content .form_login_spaces button {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 1em;
+        margin-top: 60px;
+    }
+
+
+
+    #cliente-info p {
+        text-align: left;
+        color: #186AA5;
+        font-size: 17px;
+        margin-bottom: 15px;
+        padding-left: 1.3em;
+    }
+
+    .flex_cliente_info {
+        flex-direction: column;
+    }
+
+    #cliente-info {
+        flex-basis: 100%;
+    }
+
+    .buttons_crear_pedido {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .modal-content .form_login_spaces .flex_cliente_info button {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 1em;
+        margin-top: 60px;
+    }
+}
+
+/* PEDIDOS */
+
+select {
+    border: none;
+    font-size: 14px;
+    height: 3.5em;
+    padding: .5em;
+    width: 100%;
+    font-weight: bold;
+}
+
+select option {
+    font-weight: bold;
+}
+
+.card_fase {
+    flex-basis: 13%;
+    height: 100%;
+}
+
+.card_opciones {
+    flex-basis: 8%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1em;
+    cursor: pointer;
+
+}
+
+.card_opciones img {
+    height: 35px;
+    flex-direction: row;
+    margin-left: .7em;
+}
+
+.card_id {
+    flex-basis: 12%;
+    font-weight: bold;
+    color: #186AA5;
+    cursor: pointer;
+
+}
+
+
+#pedidos .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 0;
+
+}
+
+#pedidos h2 {
+    padding-top: 1em;
+}
+
+#pedidos h2:first-of-type {
+    padding-top: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #pedidos .card {
+        padding: 0 0 0 1em;
+    }
+
+    #pedidos .card .card_name {
+        flex-basis: 23%;
+        font-weight: bold;
+        color: #186AA5;
+        margin-bottom: 0;
+    }
+
+
+    .card_opciones img {
+        height: 35px;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .card_fase {
+        flex-basis: 32%;
+        width: 100%;
+    }
+
+    .card_opciones {
+        flex-basis: 25%;
+        flex-direction: row;
+    }
+}
+
+#modalPedido .form_login_spaces {
+    padding-bottom: 1em;
+
+}
+
+#modalPedido .form_login_spaces .card {
+    flex-direction: column;
+    padding-left: 0;
+}
+
+#modalPedido .form_login_spaces .card div {
+    border-bottom: 1px solid #186AA5;
+    border-left: 1px solid #186AA5;
+    padding: 1em;
+    border-radius: .3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#modalPedido .form_login_spaces .card h5 {
+    font-size: 1.1em;
+    margin: 0;
+    flex-basis: 80%;
+}
+
+#modalPedido .form_login_spaces .card .drop {
+    flex-basis: 3%;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+#modalPedido .form_login_spaces .card img {
+    height: 2em;
+    width: 2em;
+    margin: auto 2em auto 1em;
+
+}
+
+#modalPedido h4 {
+    text-align: left;
+    color: #186AA5;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding-left: .75em;
+}
+
+#modalPedido h3 {
+    text-align: left;
+    color: #186AA5;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: .5em;
+}
+
+#modalPedido .form_login_spaces .card .referencias_expanded {
+    display: none;
+}
+
+#modalPedido .form_login_spaces .card .equipos_expanded {
+    display: none;
+}
+
+#modalPedido .form_login_spaces .card .colores_expanded {
+    display: none;
+}
+
+#modalPedido .form_login_spaces .card .card_aspectos_expanded {
+    display: none;
+}
+
+#modalPedido .form_login_spaces .card .card_info_basica_expanded {
+    display: none;
+}
+
+#modalPedido .form_login_spaces .card .card_drop {
+    display: flex;
+    margin-left: auto;
+}
+
+#Modal_Pedido_Proceso .form_login_spaces .card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+#Modal_Pedido_Proceso .form_login_spaces .card .sub-card-process {
+    flex-basis: 10%;
+    display: relative;
+    height: auto;
+}
+
+#Modal_Pedido_Proceso .form_login_spaces .card .sub-card-process img {
+    width: 8em;
+    margin: 2em 0 0em 0;
+    cursor: pointer;
+
+}
+
+#Modal_Pedido_Proceso .form_login_spaces .card .sub-card-process h5 {
+    text-align: center;
+}
+
+#Modal_Pedido_Proceso .modal-content .form_login_spaces h3 {
+    padding-left: .2em;
+}
+
+#Modal_Pedido_Proceso .modal-content .form_login_spaces h4 {
+    padding-left: .2em;
+}
+
+#Modal_Pedido_Proceso .form_login_spaces .card .divider {
+    flex-grow: 1;
+    border-bottom: 4px solid #186AA5;
+    margin: 1px;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+    #Modal_Pedido_Proceso .modal-content {
+        padding: 1em 1em 56em 1em;
+    }
+
+    #modalPedido .form_login_spaces .card div {
+        border-bottom: 1px solid #186AA5;
+        border-left: 0px solid white;
+        padding: 1.5em .5em 1.5em .5em;
+        border-radius: .3em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #modalPedido .form_login_spaces .card {
+        padding: 0;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content {
+        padding: 1em 1em 56em 1em;
+    }
+
+}
+
+
+#Modal_Pedido_Proceso_Etapa .form_login_spaces {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces .titles {
+    flex-basis: 70%;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h3 {
+    padding-left: .2em;
+    margin: 0;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h4 {
+    padding-left: .2em;
+
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .card-upload {
+    flex-basis: 100%;
+    padding: 2em;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces .card {
+    flex-direction: column;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h5 {
+    color: #73A1C2;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .card-upload img {
+    margin: auto;
+    flex-basis: 100%;
+    max-width: 7em;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .title-img {
+    flex-basis: 30%;
+    margin: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .title-img img {
+    max-width: 7em;
+    margin-left: auto;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .title-img h5 {
+    margin-left: auto;
+    margin-right: .8em;
+    font-size: 1em;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal button {
+    margin: 2em 0 .5em 1em;
+    min-width: 25%;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal .return {
+    max-width: 5em;
+    height: 3.5em;
+    background-color: rgb(124, 52, 52);
+    color: white;
+}
+
+#Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal .accept {
+    max-width: 5em;
+    height: 3.5em;
+    color: white;
+    display: absolute;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces .titles {
+        flex-basis: 50%;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h3 {
+        padding-left: .2em;
+        margin: 0;
+        font-size: 1.6em;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h4 {
+        padding-left: .2em;
+        font-size: 1.3em;
+
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .card-upload {
+        flex-basis: 100%;
+        padding: 2em;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .form_login_spaces h5 {
+        text-align: center;
+    }
+
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content .buttons-card-modal button {
+        margin: 1em 0 0 0;
+        min-width: 100%;
+    }
+
+    #Modal_Pedido_Proceso_Etapa .modal-content {
+        padding: 1em 1em 45em 1em;
+    }
+
+}
