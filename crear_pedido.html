@@ -36,6 +36,182 @@
         </nav>
     </div>
 
+    <div class="container_seguimiento ">
+        <div class="container_crear_pedido">
+            <div>
+                <h1>CREAR PEDIDO</h1>
+            </div>
+
+
+            <div id="informacion_basica">
+                <div class="title">Información Básica</div>
+                <div class="contenido_form">
+                    <form>
+                        <label for="nombre_cliente">Nombre de Cliente: </label>
+                        <input placeholder="Nombre" type="text" name="nombre_cliente">
+                        <br>
+                        <br>
+                        <label for="tipo_pedido" class="checklist-pedido">Tipo de Pedido:
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                        <input placeholder="diseno" type="checkbox" value="Diseño" id="selectDiseno">
+                        <label for="selectDiseno">Diseño</label>
+                        <input placeholder="cotizacion" type="checkbox" value="Cotización" id="selectCotizacion">
+                        <label for="selectCotizacion">Cotización</label>
+
+                        <button type="button">Guardar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="aspectos_generales">
+                <div class="title">Aspectos Generales</div>
+
+                <div class="contenido_form">
+                    <form>
+                        <div class="card">
+                            <img src="img/Icons_Process/subir.svg" alt="x">
+                            <div class="subtitle">Adjuntar plano (PDF, PNG, JPG, DWG)</div>
+                        </div>
+                        <div class="flex-aspectos">
+                            <div>
+                                <div class="subtitle">Tipo de Herraje</div>
+                                <select title="Herraje" name="herraje" id="herraje">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div>
+                                <div class="subtitle">Estilo de Jaladera</div>
+                                <select title="Jaladera" name="jaladera" id="jaladera">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div>
+                                <div class="subtitle">Material &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <select title="Material" name="material" id="material">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="button">Guardar</button>
+
+                    </form>
+                </div>
+            </div>
+            <div id="colores">
+                <div class="title">Colores</div>
+                <div class="contenido_form">
+                    <form action="">
+                        <div class="card">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <button type="button">Guardar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="equipo">
+                <div class="title">Equipo</div>
+                <div class="contenido_form">
+                    <div class="zona_caliente">
+                        <div class="subtitle">Zona Caliente</div>
+                        <label for="parrilla">Parrilla</label>
+                        <select name="parrilla" id="parrilla">
+                            <option value=""></option>
+                        </select>
+                        <label for="horno">Horno</label>
+                        <select name="horno" id="horno">
+                            <option value=""></option>
+                        </select>
+                        <label for="estufa">Estufa</label>
+                        <select name="estufa" id="estufa">
+                            <option value=""></option>
+                        </select>
+                        <label for="microondas">Microondas</label>
+                        <select name="microondas" id="microondas">
+                            <option value=""></option>
+                        </select>
+                        <label for="campana-dec">Campana Dec</label>
+                        <select name="campana-dec" id="campana-dec">
+                            <option value=""></option>
+                        </select>
+                        <label for="campana-sen">Campana Sencilla</label>
+                        <select name="campana-sen" id="campana-sen">
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                    <div class="zona_fria">
+                        <div class="subtitle">Zona Fría</div>
+                        <label for="frigobar">Frigobar</label>
+                        <select name="frigobar" id="frigobar">
+                            <option value=""></option>
+                        </select>
+                        <label for="refrigerador">Refrigerador</label>
+                        <select name="refrigerador" id="refrigerador">
+                            <option value=""></option>
+                        </select>
+                        <label for="enfriador_vino">Enfriador de Vino</label>
+                        <select name="enfriador_vino" id="enfriador_vino">
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                    <div class="zona_agua">
+                        <div class="subtitle">Zona Agua</div>
+                        <label for="lavavajillas">Lavavajillas</label>
+                        <select name="lavavajillas" id="lavavajillas">
+                            <option value=""></option>
+                        </select>
+                        <label for="tarja">Tarja</label>
+                        <select name="tarja" id="tarja">
+                            <option value=""></option>
+                        </select>
+                        <label for="monomando">Monomando</label>
+                        <select name="monomando" id="monomando">
+                            <option value=""></option>
+                        </select>
+                        <label for="kit">Kit</label>
+                        <select name="kit" id="kit">
+                            <option value=""></option>
+                        </select>
+                        <label for="triturador">Triturador</label>
+                        <select name="triturador" id="triturador">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <button type="button">Guardar</button>
+                </div>
+            </div>
+            <div id="imagenes_referencia">
+                <div class="title">Imagenes de Referencia</div>
+                <div class="contenido_form">
+                    <div class="card">
+                        <img src="img/Icons_Process/subir.svg" alt="x">
+                        <div class="subtitle">Adjuntar plano (PNG, JPG, JPEG)</div>
+                    </div>
+                    <button type="button">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/crear_pedido.js"></script>
+
 </body>
 
 </html>

@@ -1006,3 +1006,325 @@ select option {
     }
 
 }
+
+
+/* CREAR PEDIDO */
+
+#informacion_basica {
+    width: 100%;
+    border: 1px solid #186AA5;
+    padding: 1em 1.5em 1.5em 1.5em;
+    border-radius: .5em;
+    margin-bottom: 2.5em;
+    margin-top: 2em;
+}
+
+#aspectos_generales {
+    width: 100%;
+    border: 1px solid #186AA5;
+    padding: 1em 1.5em 1.5em 1.5em;
+    border-radius: .5em;
+    margin-bottom: 3em;
+}
+
+#colores {
+    width: 100%;
+    border: 1px solid #186AA5;
+    padding: 1em 1.5em 1.5em 1.5em;
+    border-radius: .5em;
+    margin-bottom: 3em;
+}
+
+#equipo {
+    width: 100%;
+    border: 1px solid #186AA5;
+    padding: 1em 1.5em 1.5em 1.5em;
+    border-radius: .5em;
+    margin-bottom: 3em;
+}
+
+#imagenes_referencia {
+    width: 100%;
+    border: 1px solid #186AA5;
+    padding: 1em 1.5em 1.5em 1.5em;
+    border-radius: .5em;
+    margin-bottom: 3em;
+}
+
+#informacion_basica .contenido_form label {
+    margin-right: 1.5em;
+}
+
+#informacion_basica .contenido_form input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid #186AA5;
+    font-size: .9em;
+    padding: .3em;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+#informacion_basica .contenido_form input[type="checkbox"] {
+    width: 1.1em;
+    height: 1.1em;
+    margin: 1em .5em 0 1em;
+}
+
+#informacion_basica .contenido_form input[type="checkbox"]:checked {
+    background-color: #186AA5;
+    color: white;
+}
+
+#informacion_basica .contenido_form button {
+    display: block;
+    margin-left: auto;
+    min-width: 20%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.title {
+    color: #186AA5;
+    font-size: 1.3em;
+    padding: .5em 0 2em 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: .9em;
+    color: #186AA5;
+    font-weight: bold;
+}
+
+#aspectos_generales .contenido_form .card {
+    height: 15em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+#aspectos_generales .contenido_form .card .subtitle {
+    text-align: center;
+    margin: 1em 0 .5em 0;
+}
+
+#imagenes_referencia .contenido_form .card {
+    height: 15em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+#imagenes_referencia .contenido_form .card .subtitle {
+    text-align: center;
+    margin: 1em 0 .5em 0;
+}
+
+#imagenes_referencia .contenido_form .card img {
+    height: 8em;
+}
+
+#aspectos_generales .contenido_form .card img {
+    height: 8em;
+}
+
+.flex-aspectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-aspectos div {
+    flex-basis: 25%;
+}
+
+.flex-aspectos select {
+    border: 1px solid #186AA5;
+    margin: .8em 0 .8em 0;
+    border-radius: .5em;
+}
+
+#aspectos_generales .contenido_form button {
+    display: block;
+    margin-left: auto;
+    min-width: 20%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+#colores .contenido_form .card {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.circle {
+    border: 1px solid #73A1C2;
+    min-height: 6em;
+    min-width: 6em;
+    max-width: 6em;
+    max-height: 6em;
+    border-radius: 100%;
+    margin: 1em 1em 2em .5em;
+    flex-basis: 10%;
+}
+
+#equipo .contenido_form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#equipo .contenido_form>div {
+    flex-basis: 48%;
+    padding: 1em;
+    border: 1px solid #73A1C2;
+    border-radius: .5em;
+    margin-bottom: 3em;
+}
+
+#equipo .contenido_form .subtitle {
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+#equipo .contenido_form select {
+    height: 3em;
+    margin-bottom: 1em;
+    margin-top: .5em;
+    border: 1px solid #73A1C2;
+    border-radius: .5em;
+}
+
+#colores .contenido_form button {
+    display: block;
+    margin-left: auto;
+    min-width: 20%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+#equipo .contenido_form button {
+    display: block;
+    margin-left: auto;
+    max-height: 3.5em;
+    min-width: 20%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+    margin-top: 2em;
+    align-self: flex-end;
+}
+
+#imagenes_referencia .contenido_form button {
+    display: block;
+    margin-left: auto;
+    min-width: 20%;
+    padding: 13px;
+    background: #186AA5;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #73A1C2;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.container_crear_pedido {
+    padding: 0 13em 0 13em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container_crear_pedido {
+        padding: 0;
+    }
+
+    #informacion_basica .contenido_form label {
+        margin-right: 1.5em;
+    }
+
+    #informacion_basica .contenido_form input[type="text"] {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    #informacion_basica .contenido_form .checklist-pedido {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 1em;
+        margin-top: 2em;
+    }
+
+
+    #informacion_basica .contenido_form button {
+        min-width: 100%;
+        margin-top: 4em;
+    }
+
+    .flex-aspectos div {
+        flex-basis: 100%;
+    }
+
+    .flex-aspectos select {
+        border: 1px solid #186AA5;
+        margin: .8em 0 .8em 0;
+        border-radius: .5em;
+    }
+
+    #aspectos_generales .contenido_form button {
+        min-width: 100%;
+        margin-top: 4em;
+    }
+
+    .circle {
+        border: 1px solid #73A1C2;
+        min-height: 5em;
+        min-width: 5em;
+        max-width: 5em;
+        max-height: 5em;
+        border-radius: 100%;
+        margin: 1em 1em 2em .5em;
+        flex-basis: 10%;
+    }
+
+
+    #equipo .contenido_form>div {
+        flex-basis: 100%;
+    }
+
+
+    #colores .contenido_form button {
+        min-width: 100%;
+        padding: 13px;
+    }
+
+    #equipo .contenido_form button {
+        max-height: 3.5em;
+        min-width: 100%;
+
+    }
+
+    #imagenes_referencia .contenido_form button {
+        min-width: 100%;
+    }
+}
