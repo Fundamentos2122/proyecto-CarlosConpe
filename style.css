@@ -108,6 +108,31 @@ body {
     color: #186AA5;
 }
 
+.announce {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: .8em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .volver_login {
+        left: 50px;
+    }
+
+    .form_login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .form_login form {
+        width: 90%;
+    }
+
+}
+
 /**  NAVBAR  **/
 
 .Navbar {
@@ -330,6 +355,7 @@ body {
 
 .card_drop {
     display: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1326,5 +1352,88 @@ select option {
 
     #imagenes_referencia .contenido_form button {
         min-width: 100%;
+    }
+}
+
+/* SEGUIMIENTO */
+
+.padding-top-content {
+    padding-top: 2em;
+}
+
+.padding-right-nav-link {
+    margin-right: 180px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .padding-right-nav-link {
+        margin-right: 0px;
+    }
+}
+
+.profile {
+    cursor: pointer;
+    margin-top: .4em;
+}
+
+.crear_pedido {
+    width: 100%;
+    color: white;
+    background-color: #186AA5;
+    padding: 1.5em;
+    font-weight: bold;
+    font-size: 1em;
+    border: 0;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.modal-content-profile {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #888;
+    width: 20%;
+    border-radius: .5em;
+}
+
+.modal-content-profile h3, h4 {
+    text-align: left;
+    margin: .5em;
+}
+
+.cerrar_sesión {
+    width: 100%;
+    margin: .7em .5em;
+    padding: .8em;
+    color: white;
+    background-color: rgb(157, 12, 12);
+    font-weight: bold;
+    border: 0;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+#modalProfile {
+    position: absolute;
+    right: 1.3em;
+    top: 7em;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #modalProfile {
+        position: static;
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    .cerrar_sesión {
+        margin: .9em .5em;
+        padding: 1.2em;
+        color: white;
+
     }
 }

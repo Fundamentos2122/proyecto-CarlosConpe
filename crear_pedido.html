@@ -30,8 +30,11 @@
         <nav class="Navbar_Items_Right">
             <div class="Navbar_Link">
                 <a href="crear_pedido.html">
-                    <button>CREAR NUEVO PEDIDO</button>
+                    <button>CREAR PEDIDO</button>
                 </a>
+            </div>
+            <div class="Navbar_Link">
+                <img class="profile" id="profile" src="img/Icons/profile1.svg" alt="profile" width="35px">
             </div>
         </nav>
     </div>
@@ -206,7 +209,23 @@
                     <button type="button">Guardar</button>
                 </div>
             </div>
+            <div>
+                <a href="pedidos.html">
+                    <button type="button" class="crear_pedido">Crear Pedido</button>
+                </a>
+
+            </div>
         </div>
+
+        <div id="Modal_Profile" class="modal">
+            <div class="modal-content-profile" id="modalProfile">
+                <h3>Perfil</h3>
+                <h4>Nombre: Vendedor X</h4>
+                <button type="button" class="cerrar_sesión">CERRAR SESIÓN</button>
+
+            </div>
+        </div>
+
     </div>
 
     <script src="js/nav.js"></script>

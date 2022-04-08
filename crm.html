@@ -30,8 +30,11 @@
         <nav class="Navbar_Items_Right">
             <div class="Navbar_Link">
                 <a href="crear_pedido.html">
-                    <button>CREAR NUEVO PEDIDO</button>
+                    <button>CREAR PEDIDO</button>
                 </a>
+            </div>
+            <div class="Navbar_Link">
+                <img class="profile" id="profile" src="img/Icons/profile1.svg" alt="profile" width="35px">
             </div>
         </nav>
     </div>
@@ -167,6 +170,17 @@
         </div>
     </div>
 
+
+    <div id="Modal_Profile" class="modal">
+        <div class="modal-content-profile" id="modalProfile">
+            <h3>Perfil</h3>
+            <h4>Nombre: Vendedor X</h4>
+            <a href="login_vendedor.html">
+                <button type="button" class="cerrar_sesión">CERRAR SESIÓN</button>
+            </a>
+        </div>
+    </div>
+
     <div id="Modal_Crear_Prospecto" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -214,10 +228,12 @@
         </div>
     </div>
 
-    <script src="js/dropdown_crm.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/cards.js"></script>
+
     <script src="js/crm.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script src="js/dropdown_crm.js"></script>
+    <script src="js/cards.js"></script>
 
 
 

@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded',addIdToCards);
 document.addEventListener('DOMContentLoaded',addColorStateToCards);
 document.addEventListener('DOMContentLoaded',loadModals);
 
+var path = window.location.pathname;
+var page = path.split("/").pop();
 
 function addIdToCards(){
     let cards = document.getElementsByClassName("card");
@@ -260,6 +262,19 @@ function ModalProcesoUpload(i, mode){
         break;
 
     } 
+
+    let imageUploadDownload;
+    let textUploadDownload;
+
+
+    if(page === "seguimiento.html"){
+        imageUploadDownload = "bajar.svg"
+        textUploadDownload = "Bajar"
+    } else {
+        imageUploadDownload = "subir.svg"
+        textUploadDownload = "Subir"
+    }
+
     modal2.innerHTML = `<div class="modal-content" id="modalPedidoProceso">
     <span class="close" onclick="closeModal2()">&times;</span>
     <form class="form_login_spaces">
@@ -272,8 +287,8 @@ function ModalProcesoUpload(i, mode){
             <h5>${title}</h5>
         </div>
         <div class="card card-upload">
-            <img src="img/Icons_Process/subir.svg" alt="y">
-            <h5>Subir Material</h5>
+            <img src="img/Icons_Process/${imageUploadDownload}" alt="y">
+            <h5>${textUploadDownload} Material</h5>
         </div>
         <div class="buttons-card-modal">
             <button type="button" class="return" onclick="closeModal2()">Regresar</button>
