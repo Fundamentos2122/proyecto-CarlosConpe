@@ -1,57 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="Navbar">
-        <div class="Navbar_Link Navbar_Link_Toggle">
-            <img src="img/Icons/menu.svg" alt="menu" width="30px">
-        </div>
-
-        <div class="Navbar_Link Navbar_Link_Brand">
-            <img src="img/logo-header.png" alt="logo">
-        </div>
-
-        <nav class="Navbar_Items">
-            <div class="Navbar_Link Navbar_Link_Item">
-                <a href="crm.html">CRM</a>
-            </div>
-            <div class="Navbar_Link Navbar_Link_Item">
-                <a href="pedidos.html">PEDIDOS</a>
-            </div>
-        </nav>
-        <nav class="Navbar_Items_Right">
-            <div class="Navbar_Link">
-                <a href="crear_pedido.html">
-                    <button>CREAR PEDIDO</button>
-                </a>
-            </div>
-            <div class="Navbar_Link">
-                <img class="profile" id="profile" src="img/Icons/profile1.svg" alt="profile" width="35px">
-            </div>
-        </nav>
-    </div>
+<?php include 'inc/header.php'; ?>
 
     <div class="container_seguimiento">
         <div>
-            <h1>PEDIDOS</h1>
+            <h1>SEGUIMIENTO</h1>
         </div>
-        <div class="buttons_acciones_seguimiento">
-            <form action="crear_pedido.html">
-                <button type="submit" id="button_crear_prospecto" class="button_crear_prospecto">
-                    CREAR PEDIDO
-                </button>
-            </form>
 
-        </div>
-        <div id="pedidos">
+        <div id="pedidos" class="padding-top-content">
             <h2>Pedidos en Revisión</h2>
             <div class="cards">
                 <div class="card">
@@ -289,19 +243,10 @@
         </div>
     </div>
 
-    <div id="Modal_Profile" class="modal">
-        <div class="modal-content-profile" id="modalProfile">
-            <h3>Perfil</h3>
-            <h4>Nombre: Vendedor X</h4>
-            <a href="login_vendedor.html">
-                <button type="button" class="cerrar_sesión">CERRAR SESIÓN</button>
-            </a>
-        </div>
-    </div>
+    <?php include 'inc/modal_profile.php'; ?>
 
-    <script src="js/dropdown_crm.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/pedidos.js"></script>
+    <script src="../src/lib/js/dropdown_crm.js"></script>
+    <script src="../src/lib/js/pedidos.js"></script>
 
 
 

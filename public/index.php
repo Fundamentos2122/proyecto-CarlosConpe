@@ -1,3 +1,11 @@
+<?php
+$username_err ="";
+$password_err ="";
+?>
+
+<?php include '../config/database.php'; ?>
+<?php include '../src/lib/php/login.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,19 +28,20 @@
         <img src="img\image.png" alt="logo">
     </div>
     <div class="form_login">
-        <form class="form_login_spaces" id="login-space">
+        <form class="form_login_spaces" id="login-space" method="POST" >
             <h3>Iniciar Sesión</h3>
             <input type="text" placeholder="Usuario" name="username" required>
+            <span class="invalid-feedback"><?php echo $username_err; ?>
             <input type="password" placeholder="Contraseña" name="password" required>
-            <button type="button" id="button-login">Iniciar Sesión</button>
-            <a href="#"> ¿Olvidaste tu contraseña? </a>
+            <span class="invalid-feedback"><?php echo $password_err; ?>
+            <button type="submit" id="button-login">Iniciar Sesión</button>
         </form>
     </div>
     <div class="login_change_profile">
-        <a href="login_vendedor.html"> ¿Vendedor? </a>
+        <a href="login_vendedor.php"> ¿Vendedor? </a>
     </div>
 
-    <script src="js/login.js"></script>
+    <script src="../src/lib/js/login.js"></script>
 </body>
 
 </html>
